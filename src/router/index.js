@@ -29,6 +29,11 @@ const routes = [
     name: 'RecoveryPass',
     component: () => import('../views/RecoveryPass.vue')
   },
+  {
+    path: '/infinitescroll',
+    name: 'InfiniteScroll',
+    component: () => import('../views/InfiniteScroll.vue')
+  },
 ]
 
 const router = new VueRouter({
